@@ -1,6 +1,6 @@
 if [ $# -gt 1 ]
 then
- echo "Syntax Error."
+ echo "Syntax is $0 [year]"
 exit 1
 fi
 if [ $# -eq 0 ]
